@@ -12,7 +12,7 @@ def summon_captain_planet(element)
 end
 
 def long_planeteer_calls(calls)
-  calls.include?(4)
+  calls.include?(5)
 end
 
 def find_the_cheese# code an argument here
