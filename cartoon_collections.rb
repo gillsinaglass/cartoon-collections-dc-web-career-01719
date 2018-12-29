@@ -1,6 +1,7 @@
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |item, index|
-    puts dwarves
+    item.unshift(index)
+    puts item
   end
 end
 
